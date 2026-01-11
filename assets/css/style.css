@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #F4D04E;
+    --color-gray950: #111111;
+    --color-gray500: #6B6B6B;
+    --color-White: #FFFFFF;
+
+    --font-sizeSmall: 0.85rem; /* 14px */
+    --font-sizeBase: 1rem; /* 16px */
+    --font-sizeExtraLarge: 1.5rem; /* 24px */
+    --font-sizeLarge: 1.25rem; /* 20px */
+
+    --fontWeight-regular: 500;
+    --fontWeight-bold: 800;
+
+    --font-base: 'Figtree', sans-serif;
+}
+
+body {
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.cardConteiner {
+    height: 501px;
+    width: 327px;
+
+    background-color: var(--color-White);
+
+    border-radius: 16px;
+    border: solid 2px var(--color-gray950);
+
+    margin: auto;
+    
+    padding: 24px;
+}
+
+#illustrationArticle {
+    width: 279px;
+    height: 200px;
+
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.tag {
+    display: block;
+
+    width: 78px;
+    height: 26px;
+
+    background-color: var(--color-yellow);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.25rem 0.75rem;
+    font-size: var(--font-sizeSmall);
+
+    font-weight: var(--fontWeight-bold);
+    
+    margin-bottom: 0.75rem;
+}
+
+.postDate {
+    display: block;
+
+    font-size: var(--font-sizeBase);
+    color: var(--color-gray950);
+    font-weight: var(--fontWeight-regular);
+
+    margin-bottom: 0.75rem;
+}
+
+h1 {
+    font-size: var(--font-sizeLarge);
+    font-weight: var(--fontWeight-bold);
+    color: var(--color-gray950);
+
+    margin-bottom: 0.75rem;
+}
+
+.subtitle {
+    font-size: var(--font-sizeSmall);
+    font-weight: var(--fontWeight-regular);
+    color: var(--color-gray500);
+    word-spacing: 2px;
+
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+
+}
+
+.authorName {
+    font-size: var(--font-sizeBase);
+    font-weight: var(--fontWeight-bold);
+    color: var(--color-gray950);
+}
