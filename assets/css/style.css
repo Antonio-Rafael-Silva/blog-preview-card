@@ -93,6 +93,19 @@ h1 {
     margin-bottom: 0.75rem;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--color-yellow);
+}
+
+a:active {
+    color: var(--color-gray950);
+}
+
 .subtitle {
     font-size: var(--font-sizeSmall);
     font-weight: var(--fontWeight-regular);
@@ -117,5 +130,13 @@ h1 {
 .authorName {
     font-size: var(--font-sizeBase);
     font-weight: var(--fontWeight-bold);
+    color: var(--color-gray950);
+}
+
+.authorName:hover {
+    color: var(--color-yellow);
+}
+
+.authorName:active {
     color: var(--color-gray950);
 }
